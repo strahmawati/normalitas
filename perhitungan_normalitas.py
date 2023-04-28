@@ -11,7 +11,7 @@ def main():
     normality = mol_equivalent / (volume / 1000)
     
     # Show result
-    st.write(f'Normality = {normality:.4f} N')
+    st.write(f'Normality = {normality:.4f} N (Grek/L)')
 
 if __name__ == '__main__':
     main()
